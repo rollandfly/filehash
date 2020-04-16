@@ -79,6 +79,10 @@ sum(is.na(dataSet$steps))
 ```
 
 2.Devise a strategy for filling in all of the missing values in the dataset with the average of the steps in the others days. 
+
+I will replace the NA value by the average of the value at the same interval
+
+
 ```{r}
 data_full <- dataSet
 j<-0
